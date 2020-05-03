@@ -37,8 +37,7 @@ void setup() {
 
     // Begin Serial and setup SPI1
     Serial.begin(9600);
-    SPI1.begin();
-    SPI1.setClockSpeed(8192000);
+    SPI1.begin(SPI_MODE_MASTER);
 
     // Wait until WiFi is connected
     while(WiFi.connecting()){}
