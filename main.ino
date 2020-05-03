@@ -237,7 +237,7 @@ void takeSample(void) {
 
     #ifdef SERIAL_DEBUG
         Serial.print("Taking sample: ");
-        Serial.print(dataIterator);
+        Serial.print(sampleCount);
     #endif
 
     tx[1] = 74; // Pmean register at 4AH
