@@ -1,12 +1,22 @@
 #ifndef PHOTON_PACKETTYPES_H
 #define PHOTON_PACKETTYPES_H
 
-#include "packet.h"
-
 // Packet sizes for sending routine
 #define SIZE_OPEN_CONNECTION 9
 #define SIZE_STATUS_RESPONSE 11
 #define SIZE_DATA_DUMP 129
+
+#define CURRENT_VERSION 0
+#define PACKET_ID 0xBA
+
+typedef enum {
+    OPEN_CONNECTION,
+    OPEN_RESPONSE,
+    STATUS,
+    STATUS_RESPONSE,
+    DATA_DUMP,
+    UNKNOWN
+} subtype_t;
 
 struct __attribute__((__packed__)) pHeader {
     uint8_t ID          = PACKET_ID;
