@@ -236,7 +236,7 @@ void takeSample(void) {
 
     #ifdef SERIAL_DEBUG
         Serial.print("Taking sample: ");
-        Serial.print(sampleCount);
+        Serial.println(sampleCount);
     #endif
 
     tx[1] = 74; // Pmean register at 4AH
@@ -245,7 +245,7 @@ void takeSample(void) {
 
     #ifdef SERIAL_DEBUG
         Serial.print("Pmean SPI read: ");
-        Serial.print(sStore);
+        Serial.println(sStore);
     #endif
 
     // sStore = 0x0AAA;

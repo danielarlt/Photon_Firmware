@@ -1,10 +1,9 @@
 INFO: Platform: win32
 INFO: Version Info: v0.3.0
 DEBUG: Log Path: cp.log
-DEBUG: command: ['python', 'C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon\\ParticleFlash.py']
+DEBUG: command: ['python', 'C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon_Firmware\\TCP_Echo_Server.py']
 DEBUG: file: None
 DEBUG: pause: True
 DEBUG: repl: python
-DEBUG: args: ['C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon\\ParticleFlash.py']
-INFO: return code: 0 (0x0)
-INFO: elapsed time: 209.887810
+DEBUG: args: ['C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon_Firmware\\TCP_Echo_Server.pyINFOINFO: return code: 3221225786 (0xc000013a)
+INFO: elapsed time: 184.262970

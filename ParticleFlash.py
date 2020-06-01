@@ -2,7 +2,7 @@ import subprocess
 import os
 from time import sleep
 
-path = "C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon"
+path = "C:\\Users\\danie\\Google Drive\\WWU Classes\\Capstone Project\\Photon_Firmware"
 
 os.system("particle usb dfu")
 flashfile = 0
